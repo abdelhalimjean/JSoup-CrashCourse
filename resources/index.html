@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Example</title>
+  <style>
+    /* Define some basic styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .header {
+      background-color: #1173d3;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .main-content {
+      margin-top: 20px;
+    }
+
+    .info-box {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    #important-info {
+      font-weight: bold;
+      color: #ff380e;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #1173d3;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <h1>My HTML Example</h1>
+  </div>
+
+  <div class="main-content">
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="18">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+
+
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="USA">USA</option>
+        <option value="Canada" selected>Canada</option>
+        <option value="UK">United Kingdom</option>
+        <option value="France">France</option>
+      </select>
+
+      <input type="submit" value="Submit">
+    </form>
+    <h2>Students results</h2>
+
+    <table id="results">
+      <thead>
+      <tr>
+        <th>Student Number</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+        <th>Decision</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>3876</td>
+        <td>John Doe</td>
+        <td>25</td>
+        <td>New York</td>
+        <td>Pass</td>
+      </tr>
+      <tr>
+        <td>3421</td>
+        <td>Jane Smith</td>
+        <td>21</td>
+        <td>San Francisco</td>
+        <td>Fail</td>
+      </tr>
+      <tr>
+        <td>3985</td>
+        <td>Bob Johnson</td>
+        <td>28</td>
+        <td>Los Angeles</td>
+        <td>Pass</td>
+      </tr>
+      <tr>
+        <td>3654</td>
+        <td>Alice Brown</td>
+        <td>24</td>
+        <td>Chicago</td>
+        <td>Pass</td>
+      </tr>
+      <tr>
+        <td>3765</td>
+        <td>Michael Wang</td>
+        <td>29</td>
+        <td>Houston</td>
+        <td>Fail</td>
+      </tr>
+      <tr>
+        <td>3447</td>
+        <td>Sarah Davis</td>
+        <td>19</td>
+        <td>Miami</td>
+        <td>Pass</td>
+      </tr>
+      <tr>
+        <td>3889</td>
+        <td>David White</td>
+        <td>32</td>
+        <td>Seattle</td>
+        <td>Fail</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+</body>
+</html>
